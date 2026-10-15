@@ -12,7 +12,7 @@ public class SpringDemoJenkinsApplication {
 	@GetMapping("/msg")
 	public String getMsg()
 	{
-		return "jenkins cicd demo ! again....again upload...checking";
+		return "jenkins cicd demo ! again";
 	}
 
 	public static void main(String[] args) {
