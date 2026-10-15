@@ -1,4 +1,10 @@
-FROM openjdk:8
+
+FROM eclipse-temurin:8-jre
+
+WORKDIR /app
+
+COPY target/docker-jenkins-integration-sample.jar app.jar
+
 EXPOSE 8080
-ADD target/docker-jenkins-integration-sample.jar docker-jenkins-integration-sample.jar
-ENTRYPOINT ["java","-jar","/docker-jenkins-integration-sample.jar"]
+
+ENTRYPOINT ["java", "-jar", "app.jar"]
