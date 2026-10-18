@@ -12,7 +12,7 @@ public class SpringDemoJenkinsApplication {
 	@GetMapping("/msg")
 	public String getMsg()
 	{
-		return "Hi ci/cd pipeline is successfully added";
+		return "Ci/cd is intigredted with kubernetes";
 	}
 
 	public static void main(String[] args) {
