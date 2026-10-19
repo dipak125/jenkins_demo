@@ -12,7 +12,7 @@ public class SpringDemoJenkinsApplication {
 	@GetMapping("/msg")
 	public String getMsg()
 	{
-		return "Ci/cd is intigredted with kubernetes on ec2 server";
+		return "Ci/cd is intigredted with kubernetes on ec2 server......";
 	}
 
 	public static void main(String[] args) {
