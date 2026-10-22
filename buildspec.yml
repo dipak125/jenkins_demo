@@ -10,5 +10,5 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/order-service.jar
+    - target/docker-jenkins-integration-sample.jar
   discard-paths: yes
